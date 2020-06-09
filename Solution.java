@@ -16,8 +16,8 @@ System.out.println(st.h(s,t));
             if(s.charAt(j) == t.charAt(i)){
                 ++j;
             }
-            // Equal means all the characters of str1 are
-            // found in str2 in order
+            // Equal means all the characters of t are
+            // found in s in order
             if(j == s.length()){
                 return true;
             }
